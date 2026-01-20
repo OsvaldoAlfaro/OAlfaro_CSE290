@@ -2,11 +2,6 @@
 
 using namespace std;
 
-//function to say hello world
-void welcomeMessage(){
-cout << "Hello World!" << endl;
-}
-
 //function to find the maximum value in the array
 int findMax(int arr[], int size) {
 	int maxValue = arr[0];
@@ -18,16 +13,12 @@ int findMax(int arr[], int size) {
 	return maxValue;
 }
 
-
 int main() {
 
 	//declaring variables
 	const int size = 6;
 	int maxValue;
 	int array[size];	// declaring array and allocating memory 
-
-  //call Hello world function
-  welcomeMessage();
 
 	//loop to find the max value
 	for (int i = 0; i < size; i++) {
